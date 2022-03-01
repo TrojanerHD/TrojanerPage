@@ -1,0 +1,41 @@
+body {
+  color: white;
+  background-color: #19171a;
+  font-family: 'JetBrains Mono', sans-serif;
+}
+
+div.main {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+div.main > img, div {
+	padding: 30px;
+}
+
+div.buttons {
+  grid-template-columns: auto auto auto auto auto;
+  display: grid;
+  gap: 30px;
+}
+
+.icon {
+  color: white;
+  background-color: #201e21;
+  padding: 25px;
+  border-radius: 5px;
+	width: 60px;
+	height: 60px;
+}
+
+.icon:hover {
+	background-color: #8000ff;
+}
+
+img.logo {
+  width: 200px;
+  height: 200px;
+}

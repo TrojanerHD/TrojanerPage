@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Firefox",
+      "type": "firefox",
+      "request": "launch",
+      "reAttach": true,
+      "file": "${workspaceFolder}/html/index.html",
+      "preLaunchTask": "tsc: build - tsconfig.json"
+    }
+  ]
+}

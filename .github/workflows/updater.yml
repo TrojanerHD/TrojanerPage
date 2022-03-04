@@ -2,13 +2,15 @@ name: Updater
 
 on:
   workflow_run:
-    workflows: ["TypeScript compilation"]
+    workflows:
+      - TypeScript compilation
     branches: [main]
     types:
       - completed
 
 jobs:
   build:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     name: Update
     runs-on: ubuntu-latest
 

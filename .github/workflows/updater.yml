@@ -1,8 +1,11 @@
 name: Updater
 
 on:
-  push:
-    branches: [ main ]
+  workflow_run:
+    workflows: ["TypeScript compilation"]
+    branches: [main]
+    types:
+      - completed
 
 jobs:
   build:
@@ -16,7 +19,7 @@ jobs:
         run: |
           echo "$SSH_KEY" > $HOME/ssh-key
           chmod 400 $HOME/ssh-key
-      
+
       - name: Synchronize server's code
         env:
           DIRECTORY: ${{ secrets.DIRECTORY }}

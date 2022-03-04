@@ -1,0 +1,11 @@
+{
+  "name": "trojaner-page",
+  "version": "1.0.0",
+  "main": "js/index.js",
+  "repository": "https://github.com/TrojanerHD/TrojanerPage.git",
+  "author": "TrojanerHD <xxitztrojanerhdpvptvytxx@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.6.2"
+  }
+}

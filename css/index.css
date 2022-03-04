@@ -17,7 +17,7 @@ div.main > img, div {
 }
 
 div.buttons {
-  grid-template-columns: auto auto auto auto auto;
+  grid-template-columns: repeat(4, auto);
   display: grid;
   gap: 30px;
 }

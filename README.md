@@ -14,7 +14,7 @@ Just run `tsc` in the project root
 ### Workflow
 + Editing
 + [Compiling](#compiling) (if you have done any changes to the TypeScript)
-+ Opening / reloading [html/index.html](html/index.html) in your favorite browser
++ Opening / reloading [index.html](index.html) in your favorite browser
   + Optionally, if you are on Visual Studio Code, you can use the launch configuration (which requires the Debugger for Firefox extension) and run it with Run → Start Debugging. This also compiles the TypeScript but keep in mind that it only compiles once upon start and does not auto-compile on file change.
 
 ## Additional notes

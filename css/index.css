@@ -4,7 +4,7 @@ body {
   font-family: 'JetBrains Mono', sans-serif;
 }
 
-div.main {
+main {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -12,7 +12,7 @@ div.main {
   text-align: center;
 }
 
-div.main > img, div {
+main > img, div {
 	padding: 30px;
 }
 

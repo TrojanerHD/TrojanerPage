@@ -12,11 +12,11 @@ main {
   text-align: center;
 }
 
-main > img, div {
+main > img, nav {
 	padding: 30px;
 }
 
-div.buttons {
+nav {
   grid-template-columns: repeat(4, auto);
   display: grid;
   gap: 30px;

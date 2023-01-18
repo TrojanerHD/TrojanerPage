@@ -9,7 +9,7 @@ Currently, the web page is only a landing page that redirects to my social media
 + TypeScript
 
 ### Compiling
-Just run `tsc` in the project root
+Just run `tsc` in the project root. Use `tsc -w` to automatically compile TypeScript on changes.
 
 ### Workflow
 + Editing

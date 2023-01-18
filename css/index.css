@@ -17,13 +17,12 @@ main > img, nav {
 }
 
 nav {
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: repeat(3, auto);
   display: grid;
   gap: 30px;
 }
 
-.icon {
-  color: white;
+img.icon {
   background-color: #201e21;
   padding: 25px;
   border-radius: 5px;
@@ -31,7 +30,7 @@ nav {
 	height: 60px;
 }
 
-.icon:hover {
+img.icon:hover {
 	background-color: #8000ff;
 }
 

@@ -7,7 +7,7 @@
       "request": "launch",
       "reAttach": true,
       "file": "${workspaceFolder}/index.html",
-      "preLaunchTask": "tsc: build - tsconfig.json"
+      "preLaunchTask": "tsc: watch - tsconfig.json"
     }
   ]
 }

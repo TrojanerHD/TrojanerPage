@@ -9,7 +9,7 @@ COPY yarn.lock ./
 RUN yarn install --frozen-lockfile
 RUN yarn global add typescript
 
-# copy bot to work dir
-COPY . ./
+# copy pages to work dir
+COPY ./static ./
 
 RUN tsc

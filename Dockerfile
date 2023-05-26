@@ -18,4 +18,4 @@ FROM nginx
 
 COPY --from=tsc /usr/src/trojaner-web /usr/share/nginx/html
 
-EXPOSE 3002
+EXPOSE 80

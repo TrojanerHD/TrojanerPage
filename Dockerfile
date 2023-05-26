@@ -17,6 +17,5 @@ RUN tsc
 FROM nginx
 
 COPY --from=tsc /usr/src/trojaner-web /usr/share/nginx/html
-COPY ./nginx.conf /etc/nginx/nginx.conf
 
 EXPOSE 80

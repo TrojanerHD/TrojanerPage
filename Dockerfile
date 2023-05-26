@@ -1,4 +1,4 @@
-FROM node:lts-alpine
+FROM node:lts-alpine as tsc
 
 # create and set workdir
 WORKDIR /usr/src/trojaner-web
@@ -13,3 +13,10 @@ RUN yarn global add typescript
 COPY ./static ./
 
 RUN tsc
+
+FROM nginx
+
+COPY --from=tsc /usr/src/trojaner-web /usr/share/nginx/html
+COPY ./nginx.conf /etc/nginx/nginx.conf
+
+EXPOSE 80

@@ -1,4 +1,0 @@
-FROM nginx
-
-COPY --from=trojaner/trojaner-page /usr/src/trojaner-web /usr/share/nginx/html
-COPY ./nginx.conf /etc/nginx/nginx.conf

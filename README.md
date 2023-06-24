@@ -2,7 +2,9 @@
 This repository contains the source code of my web page.
 
 ## Contents
-Currently, the web page is only a landing page that redirects to my social media but is open to be extended in the future
+Currently, the web page is only a landing page that redirects to my social media but is open to be extended in the future.
+
+Aside from that, some configuration files that are required for Matrix can be found in [.well-known](https://github.com/TrojanerHD/TrojanerPage/tree/main/.well-known)
 
 ## Deployment
 ### Requirements

@@ -1,0 +1,6 @@
+version: "3.8"
+services:
+  trojaner-page:
+    image: ghcr.io/trojanerhd/trojaner-page:latest
+    ports:
+      - "3333:80"

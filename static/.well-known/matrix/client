@@ -1,5 +1,8 @@
 {
-    "m.homeserver": {
-        "base_url": "https://trojaner.matrix.nwex.de/"
-    }
+  "m.homeserver": {
+    "base_url": "https://trojaner.matrix.nwex.de/"
+  },
+  "org.matrix.msc3575.proxy": {
+    "url": "https://sliding-sync.trojaner.matrix.nwex.de"
+  }
 }

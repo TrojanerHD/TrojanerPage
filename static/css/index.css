@@ -22,16 +22,23 @@ nav {
   gap: 30px;
 }
 
-img.icon {
+div.icon-wrapper {
   background-color: #86728c;
   padding: 25px;
-  border-radius: 5px;
+  border-radius: 100px;
 	width: 60px;
 	height: 60px;
+  margin: 5px;
 }
 
-img.icon:hover {
+
+div.icon-wrapper:hover {
 	background-color: #50434f;
+}
+
+img.icon {
+  width: 60px;
+  height: 60px;
 }
 
 img.logo {

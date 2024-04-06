@@ -1,6 +1,6 @@
 body {
   color: white;
-  background-color: #19171a;
+  background-color: #210f26;
   font-family: 'JetBrains Mono', sans-serif;
 }
 
@@ -23,7 +23,7 @@ nav {
 }
 
 img.icon {
-  background-color: #201e21;
+  background-color: #86728c;
   padding: 25px;
   border-radius: 5px;
 	width: 60px;
@@ -31,7 +31,7 @@ img.icon {
 }
 
 img.icon:hover {
-	background-color: #8000ff;
+	background-color: #50434f;
 }
 
 img.logo {

@@ -2,7 +2,10 @@
   "m.homeserver": {
     "base_url": "https://trojaner.matrix.nwex.de/"
   },
-  "org.matrix.msc3575.proxy": {
-    "url": "https://sliding-sync.trojaner.matrix.nwex.de"
-  }
+  "org.matrix.msc4143.rtc_foci": [
+    {
+      "livekit_service_url": "https://livekit.rtc.matrix.nwex.de",
+      "type": "livekit"
+    }
+  ]
 }
